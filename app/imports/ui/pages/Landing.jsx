@@ -10,7 +10,10 @@ class Landing extends React.Component {
             <Grid.Column textAlign='center'>
               <Icon inverted size='huge' name='group'/>
               <Header as='h1' inverted>Multiple Users</Header>
-              <Header as='h3' inverted>This address book enables any number of users to register and save their business contacts. You can only see the contacts you have created.</Header>
+              <Header as='h3' inverted>
+                This address book enables any number of users to register and save their business contacts.
+                You can only see the contacts you have created.
+              </Header>
             </Grid.Column>
             <Grid.Column textAlign='center'>
               <Icon inverted size='huge' name='file alternate'/>
@@ -20,7 +23,10 @@ class Landing extends React.Component {
             <Grid.Column textAlign='center'>
               <Icon inverted size='huge' name='calendar check outline'/>
               <Header as='h1' inverted>Timestamped Notes</Header>
-              <Header as='h3' inverted>Each time you make contact with a contact, you can write a note that summarizes the conversation. This note is saved along with a timestamp with the contact.</Header>
+              <Header as='h3' inverted>
+                Each time you make contact with a contact, you can write a note that summarizes the conversation.
+                This note is saved along with a timestamp with the contact.
+              </Header>
             </Grid.Column>
           </Grid>
         </div>
