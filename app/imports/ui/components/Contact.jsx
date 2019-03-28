@@ -17,7 +17,10 @@ class Contact extends React.Component {
 
   /** On onClick, delete the data. */
   onClick() {
-    Contacts.remove(this.props.contact._id, this.deleteCallback);
+    /* eslint-disable-next-line */
+    if (confirm('Do you really want to delete this contact?')) {
+      Contacts.remove(this.props.contact._id, this.deleteCallback);
+    }
   }
 
   /** Notify the user of the results of the submit. If successful, clear the form. */
